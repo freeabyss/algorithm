@@ -1,4 +1,4 @@
-package science.freeabyss.algorihm.sort;
+package science.freeabyss.algorihm.util;
 
 /**
  * 排序工具
@@ -12,6 +12,8 @@ public final class SortUtil {
         return a.compareTo(b) < 0;
     }
 
+
+
     /**
      * 交换 元素
      */
@@ -20,6 +22,8 @@ public final class SortUtil {
         a[i] = a[j];
         a[j] = t;
     }
+
+
 
     /**
      * 输出数组
