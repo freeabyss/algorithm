@@ -62,6 +62,8 @@ public class SortCompare {
                 ShellOp.sort(a);
                 break;
             case QUICK:
+                Quick.sort(a);
+                break;
             case MERGE:
                 MergeFromTop.sort(a);
                 break;
