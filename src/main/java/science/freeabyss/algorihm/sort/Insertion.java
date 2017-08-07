@@ -30,11 +30,14 @@ public class Insertion {
      * 插入排序需要的交换操作和数组中倒置的数量相同，需要的比较次数大于等于倒置的数量，小于等于倒置的数量加上数组的大小减一。
      */
     public static void sort(Comparable[] array) {
-        for (int i = 1; i < array.length; i++) {
-            for (int j = i; j > 0 && less(array[j], array[j - 1]); j--) {
-                exch(array, j, j - 1);
+        sort(array, 0, array.length);
+    }
+
+    static void sort(Comparable[] a, int lo, int hi) {
+        for (int i = lo + 1; i < hi; i++) {
+            for (int j = i; j > lo && less(a[j], a[j - 1]); j--) {
+                exch(a, j, j - 1);
             }
         }
     }
-
 }
