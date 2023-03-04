@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14bcf4bb-6f1d-41cc-88e7-011b18751799" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/isSymmetric/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/lengthOfLongestSubstring/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/hammingDistance/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/maxDepth/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/isSymmetric/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/isSymmetric/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1677305823100" duration="1995000" />
       <workItem from="1677909720687" duration="932000" />
       <workItem from="1677910969040" duration="426000" />
-      <workItem from="1677912140527" duration="572000" />
+      <workItem from="1677912140527" duration="2109000" />
     </task>
     <servers />
   </component>
