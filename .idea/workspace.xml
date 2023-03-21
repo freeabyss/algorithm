@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14bcf4bb-6f1d-41cc-88e7-011b18751799" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/hammingDistance/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/maxDepth/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/isSymmetric/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/isSymmetric/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/buildTree/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/dailyTemperatures/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/twoSum/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/other/bottomUpCutRod/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Deque.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,13 +62,65 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.science.freeabyss.algorithm.other.bottomUpCutRod.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="science.freeabyss.algorithm.leetcode.lengthOfLongestSubstring.Solution" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="science.freeabyss.algorithm.leetcode.lengthOfLongestSubstring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="science.freeabyss.algorithm.leetcode.buildTree.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="science.freeabyss.algorithm.leetcode.buildTree.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="science.freeabyss.algorithm.leetcode.buildTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="science.freeabyss.algorithm.leetcode.dailyTemperatures.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="science.freeabyss.algorithm.leetcode.dailyTemperatures.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="science.freeabyss.algorithm.leetcode.dailyTemperatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="science.freeabyss.algorithm.leetcode.twoSum.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="science.freeabyss.algorithm.leetcode.twoSum.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="science.freeabyss.algorithm.leetcode.twoSum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="science.freeabyss.algorithm.other.bottomUpCutRod.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="science.freeabyss.algorithm.other.bottomUpCutRod.Solution" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="science.freeabyss.algorithm.other.bottomUpCutRod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,6 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.science.freeabyss.algorithm.other.bottomUpCutRod.Solution" />
+        <item itemvalue="Application.science.freeabyss.algorithm.leetcode.twoSum.Solution" />
+        <item itemvalue="Application.science.freeabyss.algorithm.leetcode.dailyTemperatures.Solution" />
+        <item itemvalue="Application.science.freeabyss.algorithm.leetcode.buildTree.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -99,11 +160,51 @@
       <workItem from="1677305823100" duration="1995000" />
       <workItem from="1677909720687" duration="932000" />
       <workItem from="1677910969040" duration="426000" />
-      <workItem from="1677912140527" duration="2109000" />
+      <workItem from="1677912140527" duration="2983000" />
+      <workItem from="1678326291423" duration="1206000" />
+      <workItem from="1678550618721" duration="6997000" />
+      <workItem from="1678693623202" duration="4666000" />
+      <workItem from="1679040971061" duration="2913000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/maxDepth/Solution.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/buildTree/Solution.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/buildTree/Solution.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/dailyTemperatures/Solution.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/leetcode/twoSum/Solution.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/science/freeabyss/algorithm/other/bottomUpCutRod/Solution.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
