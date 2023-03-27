@@ -22,6 +22,9 @@ public class Solution {
         return temp[n];
     }
 
+    /**
+     *
+     */
 
     public int s(int n) {
         int[] temp = new int[n + 1];
